@@ -15,7 +15,7 @@ void JSON(SnapGraph g);
 
 void GraphML(SnapGraph g)
 {
-    std::ofstream file("twitter_DEMO.graphml");
+    std::ofstream file("Wiki-Vote.graphml");
     if (file.is_open())
     {
         file << "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
@@ -37,7 +37,7 @@ void GraphML(SnapGraph g)
 
 void GEXF(SnapGraph g)
 {
-    std::ofstream file("twitter_DEMO.gexf");
+    std::ofstream file("Wiki-Vote.gexf");
     if (file.is_open())
     {
         file << "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
@@ -63,7 +63,7 @@ void GEXF(SnapGraph g)
 
 void GDF(SnapGraph g)
 {
-    std::ofstream file("twitter_DEMO.gdf");
+    std::ofstream file("Wiki-Vote.gdf");
     if (file.is_open())
     {
         file << "nodedef>id VARCHAR\n";
@@ -80,7 +80,7 @@ void GDF(SnapGraph g)
 
 void JSON(SnapGraph g)
 {
-    std::ofstream file("twitter_DEMO.json");
+    std::ofstream file("Wiki-Vote.json");
     if (file.is_open())
     {
         file << "{ \"graph\": {\n";
